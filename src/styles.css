@@ -1,0 +1,72 @@
+body,
+html {
+  color: #22213d;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.8em;
+  margin: 0;
+}
+
+.page-image-one {
+  background-image: url(../images/jorge-aguilar-vZ9TqSm9ZsQ-unsplash.jpg);
+  min-height: 100%;
+}
+
+.page-image-one,
+.page-image-two,
+.page-image-three {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  position: relative;
+}
+
+.page-text {
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+}
+
+.page-text .border {
+  color: #fff;
+  background-color: #111;
+  padding: 20px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.page-image-two {
+  background-image: url(../images/marv-watson-UfK0P6WygEE-unsplash.jpg);
+  min-height: 400px;
+}
+
+.page-text .border .transparent {
+  background-color: transparent;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.page-image-three {
+  background-image: url(../images/fer-gomez-Z2RdKLpLbDs-unsplash.jpg);
+  min-height: 400px;
+}
